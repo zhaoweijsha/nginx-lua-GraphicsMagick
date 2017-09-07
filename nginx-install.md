@@ -19,7 +19,7 @@ cd /usr/local/src
 ```bash
 wget http://nginx.org/download/nginx-1.8.0.tar.gz
 wget http://luajit.org/download/LuaJIT-2.0.4.tar.gz ### LuaJIT
-wget http://zlib.net/zlib-1.2.8.tar.gz
+wget http://zlib.net/zlib-1.2.11.tar.gz
 ```
 ### nginx module 
 ```bash
@@ -34,10 +34,10 @@ git clone https://github.com/happyfish100/fastdfs-nginx-module.git
 
 #### 2.0 unzip 
 ```bash
-tar -zxf nginx-1.8.0.tar.gz
-tar -zxf LuaJIT-2.0.4.tar.gz
-tar -zxf GraphicsMagick-1.3.21.tar.gz
-tar -zxf zlib-1.2.8.tar.gz
+tar -zxvf nginx-1.8.0.tar.gz
+tar -zxvf LuaJIT-2.0.4.tar.gz
+tar -zxvf GraphicsMagick-1.3.21.tar.gz
+tar -zxvf zlib-1.2.11.tar.gz
 ```
 #### 2.1 install LuaJIT
 ```bash
