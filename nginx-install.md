@@ -73,7 +73,7 @@ cd nginx-1.8.0
 --with-http_addition_module \
 --with-http_spdy_module \
 --with-pcre \
---with-zlib=../zlib-1.2.8 \
+--with-zlib=../zlib-1.2.11 \
 --add-module=../nginx-http-concat \
 --add-module=../lua-nginx-module \
 --add-module=../ngx_devel_kit \
